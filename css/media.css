@@ -1,0 +1,292 @@
+@media (max-width: 1200px) {
+  .promo__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .guidelines__block,
+  .content__all__areas,
+  .different__block,
+  .Contact_form {
+    justify-content: center;
+  }
+  .bot__article img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .the_best_cleaner {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #173c35;
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .nav__link {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  .nav__link li a {
+    color: rgb(255, 253, 127);
+  }
+  .nav__link li a:hover {
+    color: rgb(255, 0, 0);
+  }
+  .nav__link.show {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    gap: 10px;
+  }
+  .nav__link a {
+    display: block;
+  }
+  .nav__link li a:hover:after {
+    display: none;
+  }
+  #burger {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 0;
+    transition: 0.3s;
+    z-index: 2000;
+    cursor: pointer;
+  }
+  .promo__content__left {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 997px) {
+  .header__top {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .plan__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .different__block img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 27px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+
+  /* -------------------------Buttons */
+  #btn {
+    padding: 15px 35px;
+  }
+  .btn_call {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn_white,
+  .browse,
+  .article__button .browse,
+  #button__browse,
+  .form__btn,
+  .footer__block .form__btn {
+    max-width: 217px;
+    padding: 15px 35px;
+  }
+  /* ------------------------- */
+
+  .header__top {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Call__us {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .mobile {
+    text-align: center;
+  }
+  .Call__us span {
+    font-size: 10px;
+  }
+  .promo__content__left .Call__us p,
+  .Clients__content p,
+  .plan__content__block p,
+  .contact__right p {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .Clients__content {
+    padding: 80px 0;
+  }
+  .plan__content__block img,
+  .Call__us img {
+    width: 90px;
+  }
+  .How_our_service_works .container,
+  .professional_services__content,
+  .different__block,
+  .content__all__areas,
+  .contact__right,
+  .contact__container {
+    padding: 100px 0;
+  }
+  .plan__content__block h5 {
+    font-size: 22px;
+  }
+  .clients__item .name,
+  .nbr {
+    font-size: 10px;
+  }
+  .clients__block {
+    gap: 30px;
+  }
+  .clients__item {
+    text-align: center;
+  }
+  .bottom__services__block h5,
+  .guidelines__block__right h5 {
+    font-size: 22px;
+  }
+  .bottom__services__block p,
+  .guidelines__block__right p,
+  .items__area p,
+  .top__article p,
+  .the_best_cleaner p {
+    font-size: 15px;
+  }
+  .bottom__services {
+    flex-direction: column;
+  }
+  .bottom__services__block img {
+    width: 180px;
+  }
+  .items__block__block{
+    gap: 5px;
+  }
+  .promo__content img,
+  .guidelines__block__img {
+    width: 80%;
+  }
+  .promo__content__left h1 {
+    font-size: 35px;
+    padding-top: 150px;
+  }
+  .items__numbers{
+    font-size: 40px;
+  }
+  .items__numbers span{
+    font-size: 45px;
+  }
+  .bot__text{
+    font-size: 15px;
+  }
+  .general__block{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .the_best_cleaner_1{
+    margin: 10px 0;
+  }
+  .the_best_cleaner h4{
+    font-size: 24px;
+  }
+  .primer_b{
+    gap: 200px;
+  }
+  .contact__right h2{
+    max-width: 350px;
+  }
+  .contact__right p{
+    max-width: 300px;
+  }
+  .contact__right__bot h5{
+    font-size: 22px;
+  }
+  .line{
+    width: 100%;
+  }
+  .form__input p, .form__input-7 p{
+    font-size: 15px;
+  }
+  .article__button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form{
+    padding: 15px 30px;
+  }
+  .form__{
+    width: 220px;
+  }
+  .clients__block {
+    flex-wrap: wrap;
+  }
+  .top__services {
+    flex-wrap: wrap;
+  }
+  .All_areas__house {
+    width: 80%;
+  }
+  .items__numb{
+    flex-wrap: wrap;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_bot {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer_bot .logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_bottom__right {
+    flex-direction: column;
+  }
+  .footer_bottom__right p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px){
+  .the_best_cleaner_1{
+    padding: 25px 5px;
+  }
+  .bottom__services__block img{
+    width: 70px;
+    height: 70px;
+  }
+}
